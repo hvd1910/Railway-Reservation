@@ -1,0 +1,90 @@
+.contact{
+    @apply mx-auto max-w-screen-lg text-left;
+      max-width:1100px;
+      height: 32rem;
+      
+    }
+  
+    
+    .contact_infomation{
+      
+      width: 70rem;
+      height: 4rem;
+        margin-bottom: 1rem;
+    }
+    .contact_infomation p{
+      font-size: 2rem;
+      line-height: 4rem;
+      color: #61dafb;
+    }
+    .contact_header{
+      width: 70rem;
+      height: 20rem;
+      display: flex;
+      justify-content: space-between;
+    
+    }
+    
+    .contact_btn{
+      width: 65%;
+      height: 10rem;
+    }
+    
+    .contact_top{
+      width: 35%;
+      height: 25rem;
+    }
+    
+    .btn_title{
+      width: 35rem;
+      height: 3rem;
+      margin-bottom:1rem ;
+    
+    }
+    
+    .btn_title p{
+      font-size: 1.1rem;
+      line-height: 2.6rem;
+      color: red;
+    }
+    
+    .btn_address{
+      width: 35rem;
+      height: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .btn_address p{
+      font-size: 1.1rem;
+      line-height: 2.6rem;
+    }
+    
+    .btn_content{
+      width: 35rem;
+      height: 15rem;
+    }
+    
+    .btn_support{
+      width: 34rem;
+      height: 3rem;
+      margin-bottom:1rem ;
+    
+    }
+    .btn_support p{
+      font-size: 1.1rem;
+      line-height: 2.6rem;
+      color: red;
+    }
+    .btn_phone{
+      width: 34rem;
+      height: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .btn_email{
+      width: 34rem;
+      height: 15rem;
+    }
+    
+  
+    

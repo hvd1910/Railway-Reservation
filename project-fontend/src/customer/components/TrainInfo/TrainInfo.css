@@ -1,0 +1,95 @@
+.content {
+    width: 90%;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.train {
+    display: inline-block;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.train-number {
+    display: inline-block;
+    width: 150px;
+    flex-direction: column;
+    background-color: #ecf3e9;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-left: 5px solid rgb(4, 170, 107);
+    border-right: 5px solid rgb(4, 170, 107);
+    border-top: 20px solid rgb(4, 170, 107);
+    border-bottom: 20px solid rgb(4, 170, 107);
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.train-number:hover{
+    color: rgb(133, 133, 133);
+}
+
+.name-train {
+    font-size: 15px;
+    text-align: center;
+}
+
+.Departure {
+    display: flex;
+    width: 100%;
+}
+
+/* .Departure span.left{
+    width: 50%;
+    font-weight: bold;
+
+  }
+  .Departure span.right{
+    width: 50%;
+  } */
+
+.Arrival {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    font-weight: bold;
+}
+
+.right {
+    width: 50%;
+    margin-left: auto;
+}
+
+.seating {
+    display: flex;
+    width: 100%;
+}
+
+.seat1 {
+    width: 50%;
+}
+
+.qty1 {
+    font-size: 8px !important;
+}
+
+.large {
+    font-size: 15px;
+    /* text-align: center; */
+    font-weight: bold;
+}
+
+.seat2 {
+    width: 50%;
+}
+
+.train.selected  .train-number{
+    border-left: 5px solid rgb(226, 59, 59);
+    border-right: 5px solid rgb(226, 59, 59);
+    border-top: 20px solid rgb(226, 59, 59);
+    border-bottom: 20px solid rgb(226, 59, 59);
+}

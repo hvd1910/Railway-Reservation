@@ -1,0 +1,14 @@
+.ticket-form{
+    height: 90vh;
+    padding-top: 60px;
+    background-image: url("../images/banner.png");
+    background-size: cover;
+}
+
+h1{
+    padding-left: 100px;
+    font-weight: bold;
+    color: rgb(4, 170, 107);
+    font-size: 30px;
+}
+
